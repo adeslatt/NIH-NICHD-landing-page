@@ -1,0 +1,34 @@
+site_name: NIH NICHD
+site_url: https://nih-nichd.github.io/eos
+site_description: Location for education and materials for platform agnostic compute and storage
+site_author: Anne Deslattes Mays, PhD
+
+
+repo_url: https://github.com/NIH-NICHD/NIH-NICHD-landing-page/
+
+edit_uri: blob/main/docs/
+
+nav:
+   - Home: ../
+   - Resources
+       - Elements of Style in Workflow Creation
+       - Alternative Splicing Analysis with rMATS
+   - About:
+       - Background: about/background.md
+       - Attribution:  about/attribution.md
+       - License: about/license.md
+       - Making this site: about/how-this-site-was-made.md
+theme:
+   name: readthedocs
+   locale: en
+      
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - toc:
+        permalink: []
+    - attr_list
+    - def_list
+    - tables
